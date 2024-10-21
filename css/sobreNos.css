@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+:root{
+    --white: #fff;
+    --lavanda: #cac1fe;
+    --darklav: #857dd1;
+    --dark: #301934;
+    --black: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+nav {
+    width: 100%; 
+    height: 90px; 
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 120px;
+    float: left; 
+    margin-left: 55px;
+}
+.contate a {
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    display: inline-block; 
+    font-weight: bold;
+    color: #301934;
+}
+
+.contate a:hover {
+    border-radius: 20px;
+    background-color: #f3efef;
+    color: #857dd1;
+    font-weight: bold;
+}
+.contate{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #857dd1;
+}
+
+.logo{
+    margin-left: 30px;
+}
+.logo img{
+    width: 100px;
+}
+
+.desc-emp{
+    margin-left: 350px;
+    margin-right: 350px;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+    
+}
+
+.logoHelp{
+    display: flex;
+}
+img.logoHelp{
+    width: 250px;
+    height: 250px;
+    
+}
+
+.text{
+    margin-top: 50px;
+    margin-right: 70px; 
+    text-align: justify;
+}
+
+.avatar{
+    margin-right: 30px;
+}
+.avatar img{
+    width: 40px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: #cac1fe;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.items-bar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+
+.item a{
+    color: #301934;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 430px;
+    height: 20px;
+}
+
+.formss{
+    display: flex;
+}
+
+.ask {
+    width: 400px;
+    height: 100%;
+    border-radius: 15px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+#lupa {
+    width: 30px;
+    padding-right: 20px;
+}
+
+.item:hover{
+    text-decoration: underline #301934;
+}
+
+.title{
+    color: #301934;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha{
+    width: 422px;
+    height: 3px;
+    background-color: #301934;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categorias{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 5%;
+}
+
+.profissao{
+    width: 200px;
+    height: 100px;
+    border: 2px solid #857dd1;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px;
+    color: #301934;
+    background-color: #eaeaea;
+}
+
+.profissao:hover{
+    background-color: #857dd1;
+    color: #fff;
+}
+
+/* fale conosco */
+
+.page-ajuda{
+    background-image: url(../img/fundo.png);
+    background-size: cover; /* ou 'contain', dependendo do efeito desejado */
+}
+.efetualog{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 30px;
+    border-radius: 15px;
+}
+.efetualog img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.efetualog a{
+    color: #301934;
+    font-weight: bold;
+}
+
+.efetualog:hover{
+    background-color: #cac1fe;
+}
+
+.container p{
+    font-size: 24px;
+}
+
+.title-doubt{
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    background-color: #857dd1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: white;
+}
+.title-doubt:hover{
+    background-color: #5344dd;
+}
+.session{
+    display: flex;
+    flex-direction: row;
+}
+
+img.int{
+    margin: 30px 15px 0px 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+p.name1{
+    margin-left: 45px;
+    margin-bottom: 50px;
+}
+
+p.name2{
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+
+p.name3{
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+
+p.name4{
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+
+p.name5{
+    margin-left: 65px;
+    margin-bottom: 50px;
+}
+
+.s1 p{
+    font-size: 16px;
+    font-weight: bold;
+}
+    /* modal */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro */
+    }
+    
+    .modal-content {
+        margin: 15% auto;
+        padding: 20px;
+        width: 30%;
+        animation-name: modalopen;
+        animation-duration: 0.4s;
+    }
+
+    .modal-content span{
+        margin:0;
+        cursor: pointer;
+        color: #fff;
+        background-color: #857dd1;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .modal-content span:hover{
+        background-color: #301934;
+    }
+    
+    @keyframes modalopen {
+        from {opacity: 0}
+        to {opacity: 1}
+    }
+
+    /* Estilos para o formulário de dúvida */
+
+    #myModal.modal{
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+.form-duvida {
+    background-color: #ecf2ff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(161, 125, 209, 82);
+}
+
+.form-duvida label {
+    font-weight: bold;
+}
+
+.form-duvida input[type="text"],
+.form-duvida textarea {
+    width: 100%;
+    padding: 10px;
+    height: 38.4px;
+    margin-bottom: 10px;
+    border: 1px solid #301934;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-duvida textarea {
+    resize: vertical; /* Permite redimensionamento vertical */
+}
+
+.form-duvida input[type="submit"] {
+    background-color: #857dd1; /* Cor de fundo verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-duvida input[type="submit"]:hover {
+    background-color: #301934; /* Cor de fundo verde mais escura ao passar o mouse */
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao input{
+    width: 300px;
+}
+
+form label{
+    color: #301934;
+}
+
+.title-duvida{
+    margin: 0;
+    color: #301934;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-solicitacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-solicitacao img{
+    width: 150px;
+}
+
+.form-container {
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+

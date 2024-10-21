@@ -1,0 +1,174 @@
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #211B15;
+    background-image: url(../img/fundo.png);
+    background-size: 100%;
+    height: 100vh;
+ }
+ @font-face {
+    font-family: "Bauhaus";
+    src: url(/Bauhaus\ Font\ Family/);
+ }
+ 
+ h1 {
+    font-size: 48px;
+    padding: 10px 0;
+    font-family: oswald;
+    font-weight: 600;
+    text-align: center;
+ }
+ 
+ img {
+    padding: 10px 0;
+    margin: 0 40% 0 40%;
+ }
+ 
+ p {
+    margin-left: 40%;
+    color: white;
+ }
+ 
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ div.form{
+    margin-left: 27px;
+ }
+ 
+ .container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+ input [type="text"],
+ input[type="password"] {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 15px;
+    font-family: "Bauhaus", "Helvetica Neue", Helvetica, Arial;
+ }
+ 
+ input#senha_login {
+    margin: 10px;
+ }
+ 
+ input#nome_login {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    height: 20px;
+    font-size: 15px;
+    font-family: "Bauhaus", "Helvetica Neue", Helvetica, Arial;
+ }
+ input#senha_login:focus{
+    border: 4px solid var(--InPurple);
+ }
+ input#nome_login:focus {
+    border: 4px solid var(--InPurple);
+ }
+ 
+ input#botao_login {
+    background-color: #9ea1ca;
+    color:  #ffff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 16px;
+    margin: 10px;
+ }
+ input#botao_login:hover{
+    background-color: #857dd1;
+ }
+ 
+ a {
+    margin: 10px;
+    padding: 10px;
+ }
+ 
+ label{
+    font-family: "Bauhaus", "Helvetica Neue", Helvetica, Arial;
+    color: #000000;
+    text-align: left;
+    margin: 15px;
+ }
+ .navbar-logo{
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ #id-img{
+    width: 250px !important;
+  
+ 
+ }
+ 
+ .logo{
+    display: contents;
+    width: 100%;
+  }
+ 
+ .login {
+    display: grid;
+    align-items: center;
+    justify-items: center; /* Novo */
+    text-align: left;
+ }
+ 
+ .login > div {
+    text-align: left; /* Alinhamento horizontal */
+    margin: 0 10% 0 10%;
+ }
+ 
+ #linhas {
+    display: flex;
+    align-items: center;
+ }
+ .line {
+    width: 300px;
+    height: 2px;
+    background: #e6e1ef;
+    margin: 15px;
+ }
+ .cadastro{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Bauhaus", "Helvetica Neue", Helvetica, Arial;
+ }
+ .cadastro:hover{
+    text-decoration: underline var(--InPurple);
+ }
+ 
+ .content {
+    background-color: #c1bdda;
+    opacity: 90% ;
+    margin-top: 1%;
+    border-radius: 20px;
+    border: solid 3px #e6e1ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    .form {
+        margin: 10px 0; 
+    }
+ }
+ 
